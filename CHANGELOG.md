@@ -27,6 +27,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - calling convention mismatches in delaunay.c’s GTS code
 - impure assertion in `jacobi`
 - undefined behavior in libgvc’s reading of little endian numbers
+- parameter `name` in `gvusershape_find` prototype corrected to a const pointer,
+  to match the implementation
 
 ## [2.49.3] – 2021-10-22
 
